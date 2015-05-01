@@ -1,5 +1,5 @@
 # codesoftli-html
 Web page for Codesoftli without framework, under construction.
 
-I've included some files like pictures because I like te get a full preview of the page, with images, colors, articles...
-Well, that's all. You can change it completly.
+We started this challenge under organization a few days ago, just for fun. We love frameworks so we're creating something whithout it.
+That's all. You can edit it completly.
