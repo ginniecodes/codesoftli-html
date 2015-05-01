@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background: url('https://raoulpop.files.wordpress.com/2012/01/rpop-1998-1107.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+nav {
+    display: block;
+    position: static;
+    list-style: none;
+    z-index: 1;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: lowercase;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+    padding-right: 20px;
+}
+
+header {
+    display: block;
+    clear: both;
+    z-index: 1;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+header p {
+    font-family: 'Bitter', monospace;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+#code {
+    color: skyblue;
+}
+
+#bar {
+    width: auto;
+    height: 20px;
+    background-color: #000033;
+}
+section {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    background-color: cadetblue;
+}
+
+section a {
+    color: orange;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: brown;
+}
+
+section article {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px 40px;
+}
+
+section article h2 {
+    font-family: 'Bitter', monospace;
+    font-size: 2em;
+    color: skyblue;
+}
+
+section article p {
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+section article img {
+    display: block;
+    margin: auto;
+}
