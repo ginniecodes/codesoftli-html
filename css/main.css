@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: url('https://raoulpop.files.wordpress.com/2012/01/rpop-1998-1107.jpg');
+    background: url('../img/header-img.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,12 +21,11 @@ nav ul {
 
 nav ul li {
     display: inline;
-    color: white;
     text-transform: lowercase;
 }
 
 nav ul li a {
-    color: white;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -43,7 +42,7 @@ nav ul li a:hover {
     padding-right: 20px;
 }
 
-header {
+.header {
     display: block;
     clear: both;
     z-index: 1;
@@ -51,32 +50,39 @@ header {
     text-align: center;
 }
 
-header h1 {
+.header h1 {
     font-size: 3em;
-    color: white;
-    text-shadow: 0.1em 0.1em 0.2em black;
+    color: #FFF;
+    text-shadow: 0.1em 0.1em 0.2em #000;
 }
 
-header p {
+.header p {
     font-family: 'Bitter', monospace;
     font-size: 2em;
     text-transform: capitalize;
 }
 
 #code {
-    color: skyblue;
+    color: #33F;
 }
 
-#bar {
-    width: auto;
-    height: 20px;
-    background-color: #000033;
+p {
+	text-align: justify;
+	color: rgb(50, 50, 50);
 }
+
+img {
+    display: block;
+    margin: auto;
+}
+
 section {
     z-index: 1;
     display: block;
     position: absolute;
-    background-color: cadetblue;
+    max-width: 100%;
+    margin: 0;
+    border: 0;
 }
 
 section a {
@@ -88,23 +94,45 @@ section a:hover {
     color: brown;
 }
 
-section article {
-    background-color: #fff;
-    margin: 20px;
-    padding: 20px 40px;
+header {
+	padding: 5px;
 }
 
-section article h2 {
+header h2 {
     font-family: 'Bitter', monospace;
     font-size: 2em;
-    color: skyblue;
+    color: rgb(20, 20, 20);
+    text-align: center;
 }
 
-section article p {
+header p {
     font-weight: 100;
+    text-align: center;
 }
 
-section article img {
-    display: block;
-    margin: auto;
+.first {
+    min-height: 400px;
+	padding: 40px;
+	background-color: #FFF;/*rgb(200, 200, 200);*/
+}
+
+.second {
+	min-height: 400px;
+	max-width: 100%;
+	padding: 20px;
+	background-color: rgb(132, 132, 134);
+}
+
+.inline {
+	display: inline-flex;
+	position: relative;
+	padding: 20px;
+}
+
+.inline div {
+	padding: 10px;
+}
+
+article footer {
+	text-align: right;
 }
