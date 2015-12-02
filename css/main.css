@@ -124,13 +124,13 @@ header p {
 }
 
 .inline {
-	display: inline-flex;
-	position: relative;
-	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
 }
-
-.inline div {
-	padding: 10px;
+.inline-div {
+	margin: 10px;
 }
 
 article footer {
