@@ -1,5 +1,5 @@
 # codesoftli-html
-Web page for Codesoftli without framework, under construction.
+Web page for Codesoftli without framework.
 
-We started this challenge under organization a few days ago, just for fun. We love frameworks so we're creating something whithout it.
-That's all. You can edit it completly.
+We started this little challenge under organization a few days ago, just for fun.
+That's all. You can edit it completely.
